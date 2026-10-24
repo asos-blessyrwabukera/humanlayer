@@ -29,5 +29,9 @@
         "**/routeTree.gen.ts": true
     },
     "js/ts.tsdk": "node_modules/typescript/lib",
-    "js/ts.tsdk.path": "node_modules/typescript/lib"
+    "js/ts.tsdk.path": "node_modules/typescript/lib",
+    // GitHub Copilot: load AGENTS.md (root + nested) and SKILL.md files from .github/skills and .claude/skills
+    "chat.useAgentsMdFile": true,
+    "chat.useNestedAgentsMdFiles": true,
+    "chat.useAgentSkills": true
 }
